@@ -1,0 +1,29 @@
+{
+  "name": "my-taro-app",
+  "version": "1.0.0",
+  "description": "A Taro-based project for insect recognition",
+  "scripts": {
+    "dev": "taro build --type weapp --watch",
+    "build": "taro build --type weapp",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+  },
+  "dependencies": {
+    "@tarojs/components": "^3.3.3",
+    "@tarojs/taro": "^3.3.3",
+    "taro-ui": "^3.3.0"
+  },
+  "devDependencies": {
+    "@tarojs/cli": "^3.3.3",
+    "eslint": "^7.32.0",
+    "prettier": "^2.4.1"
+  },
+  "keywords": [
+    "taro",
+    "insect recognition",
+    "Baidu Yun OSS",
+    "Baidu Baike"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

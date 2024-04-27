@@ -1,0 +1,39 @@
+@import "../../app.scss";
+@import "../../components/WikiInfo/WikiInfo.scss";
+
+// Styles for the result page component
+.result-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.result-image {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+}
+
+.result-info {
+  text-align: center;
+  font-size: 16px;
+  color: #333333;
+}
+
+.result-wiki {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666666;
+}
+
+.result-wiki-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.result-wiki-link:hover {
+  text-decoration: underline;
+}

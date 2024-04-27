@@ -1,0 +1,39 @@
+{
+  "description": "Project configuration file for Taro app",
+  "setting": {
+    "urlCheck": true,
+    "esnextModules": ["taro"],
+    "postcss": {
+      "autoprefixer": {
+        "enable": true
+      }
+    },
+    "minified": true,
+    "compile": {
+      "exclude": ["src/components"]
+    },
+    "plugins": {
+      "babel": {
+        "sourceMap": true,
+        "presets": [
+          ["env", {
+            "modules": false
+          }]
+        ],
+        "plugins": [
+          "transform-decorators-legacy",
+          "transform-class-properties",
+          "transform-object-rest-spread"
+        ]
+      }
+    }
+  },
+  "alias": {
+    "@": "src"
+  },
+  "h5": {
+    "devServer": {
+      "port": 10086
+    }
+  }
+}
